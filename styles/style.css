@@ -1,10 +1,12 @@
 body {
-    background-color: #F0FFFF;
+    background-color: #8f84ec;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .main-title {
     text-align: center;
+    color: #fff;
+    font-weight: bolder;
 }
 
 .main-img {
@@ -17,6 +19,9 @@ body {
 
 .recipe-collections {
     text-align: center;
+    margin-bottom: 50px;
+    color: #fff;
+    font-weight: bold;
 }
 
 .recipe-items {
@@ -27,4 +32,13 @@ body {
 
 li a {
     text-decoration: none;
+    background-color: lightblue;
+    padding: 30px;
+    font-size: 25px;
+    border-radius: 18px;
+}
+
+li a:hover {
+    background-color: blue;
+    color: #fff;
 }
